@@ -1,4 +1,5 @@
-# Paper Title: Iterative Diffusion-Refined Neural Attenuation Fields for Multi-Source Stationary CT Reconstruction NAF Meets Diffusion Model
+# Paper Title: 
+Iterative Diffusion-Refined Neural Attenuation Fields for Multi-Source Stationary CT Reconstruction NAF Meets Diffusion Model
 
 ## Author(s)
 Jiancheng Fang, Shaoyu Wang, Junlin Wang, Weiwen Wu, Member, IEEE, Yikun Zhang, Qiegen Liu, Senior Member, IEEE
