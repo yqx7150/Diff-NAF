@@ -15,9 +15,7 @@ The figure below illustrates the overall framework of the paper and key experime
 ![Framework and Results](1.png)
 
 
-### Other Related Projects
-<div align="center"><img src="https://github.com/yqx7150/OSDM/blob/main/All-CT.png" >  </div>   
-    
+### Other Related Projects    
   * Generative Modeling in Sinogram Domain for Sparse-view CT Reconstruction      
 [<font size=5>**[Paper]**</font>](https://ieeexplore.ieee.org/document/10233041)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/GMSD)
 
