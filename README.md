@@ -5,7 +5,7 @@ Iterative Diffusion-Refined Neural Attenuation Fields for Multi-Source Stationar
 Jiancheng Fang, Shaoyu Wang, Junlin Wang, Weiwen Wu, Member, IEEE, Yikun Zhang, Qiegen Liu, Senior Member, IEEE
 
 ## Publication Information
-https://arxiv.org/abs/2511.14310
+https://ieeexplore.ieee.org/abstract/document/11581366
 
 ---
 
