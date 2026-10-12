@@ -13,7 +13,17 @@ https://ieeexplore.ieee.org/abstract/document/11581366
 
 The figure below illustrates the overall framework of the paper and key experimental results:
 
-![Framework and Results](1.png)
+![Framework and Results 1](fig/1.png)
+
+![Framework and Results 2](fig/2.png)
+
+![Framework and Results 3](fig/3.png)
+
+![Framework and Results 4](fig/4.png)
+
+![Framework and Results 5](fig/5.png)
+
+![Framework and Results 6](fig/6.png)
 
 
 ### Other Related Projects    
