@@ -1,0 +1,69 @@
+exp:
+  expname: Test
+  expdir: ./Lineformer/test
+  datadir: ./data/Nerf/test.npy
+network:
+  net_type: Lineformer
+  num_layers: 4
+  hidden_dim: 32
+  skips: [2]
+  out_dim: 1
+  last_activation: sigmoid
+  bound: 0.3
+  line_size: 2
+  dim_head: 4
+  heads: 8
+  num_blocks: 1
+encoder:
+  encoding: hashgrid
+  input_dim: 3
+  num_levels: 16
+  level_dim: 2
+  base_resolution: 16
+  log2_hashmap_size: 19
+render:
+  n_samples: 1024
+  n_fine: 0
+  perturb: True
+  raw_noise_std: 0.
+  netchunk: 409600
+train:
+  epoch: 3000
+  n_batch: 1
+  n_rays: 1024
+  lrate: 0.001
+  lrate_gamma: 0.1
+  lrate_step: 3000
+  resume: False
+  window_size: [8, 8]
+  window_num: 16
+log:
+  i_eval: 200
+  i_save: 200
+test:
+  pre_model: null
+data_generate:
+  DSD: 1500
+  DSO: 1000
+  nDetector: [512, 512]
+  dDetector: [1, 1]
+  nVoxel: [256, 256, 256]
+  dVoxel: [1.0, 1.0, 1.0]
+  offOrigin: [0.0, 0.0, 0.0]
+  offDetector: [0.0, 0.0]
+  accuracy: 0.5
+  mode: "cone"
+  filter: None
+  noise: 0
+
+  convert: False
+  rescale_slope: 1.0
+  rescale_intercept: -1024.0
+  normalize: true
+
+
+  totalAngle: 360
+  startAngle: 0
+  randomAngle: false
+  numTrain: 50
+  numVal: 50

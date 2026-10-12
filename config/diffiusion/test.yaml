@@ -1,0 +1,58 @@
+diffusion_data:
+  dataset: DR
+  root: data/test/
+  image_size: 512
+  num_channels: 1
+  img_to_img_translation: True
+  centered: True 
+  norm_type: Increase_tenfold
+  scale_factor: 10
+
+diffusion_training:
+  batch_size: 1
+  epochs: 2001
+  log_freq: 300
+  eval_freq: 50
+  eval_freq_sampling: 50
+  condition: Ture
+  input_condition: False
+  input_condition_mask: False
+  condition_type: 1
+  objective: 'pred_res'
+  test_res_or_noise: "res"
+  gradient_accumulate_every: 2
+  sum_scale: 1
+  fp16: False
+  isamp: False
+  crop_patch: False
+  ema_update_every: 10
+  split_batches: False
+  sub_dir: False
+
+diffusion_eval:
+  batch_size: 1
+  pre_model:  null 
+  only_save_last: True
+
+
+diffusion_model:
+  dim_mults: [1,2,4,8] 
+  num_scales: 1000
+  ema_rate: 0.999
+  dim: 32
+  num_unet: 1
+  loss_type: l1
+  init_dim: null
+  out_dim: null
+  self_condition: False
+  resnet_block_groups: 8
+  learned_variance: False
+  learned_sinusoidal_cond: False
+  random_fourier_features: False
+  learned_sinusoidal_dim: 16
+  ddim_sampling_eta: 0
+
+
+diffusion_optim:
+  lr: 2.0e-4
+
